@@ -4,6 +4,14 @@ A CPU design in digital. It is based on RUN2223 CPU, a 32-bit CPU designed speci
 ## How to set up
 To view the CPU design, you need to install the digital circuit design tool *Digital*. It is completely open-source and can be installed from the github page [here](https://github.com/hneemann/Digital).
 
+To simulate the computer circuit (of which our CPU is a major component) in Digital:
+ 0. Start up digital, which you can do by running *Digital.sh* as a program in the installation folder of Digital.
+ 1. Open *Computer.dig*.
+ 2. Load one of the included (machine code) programs, such as *clear_screen.hex* or (recommended), by going to the navbar of Digital and selecting *Edit -> Circuit Specific Settings -> Advanced tab* and ticking the box *Preload program memory at startup*, and then selecting one of the *.hex* files included in the folder *tools-and-examples*.
+ 3. Click the *white* play button with *no* additional markings (the other two play buttons are for testing or single-step simulation) in the top bar of Digital. This should start the simulation.
+
+To view subcomponents, you can simply open the other files, or select components and click "open circuit" in the component menu.
+
 ## What we did
 Bram Weessies and I received:
  1. A manual which described, on a high level:
