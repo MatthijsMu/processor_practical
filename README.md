@@ -32,3 +32,6 @@ We did not get a "recipe" for designing the components, the only requirement and
  - the Register Bank
  - the Instruction Decoder
  - the Tester, which tested conditions based on the contents of the flag registers.
+
+## Updated Contents
+I also added the version of Digital.zip used when we did the practical (for compatability reasons), and the .zip containing the original template, for reference.
